@@ -1,0 +1,299 @@
+/*#############################################################
+Name: Indigo
+Description: A lightweight (7kb images), simple and professional design.
+Date: 2006-07-27
+Author: Viktor Persson
+URL: http://arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+.css1 { font-size: 1.0em; padding:4px;}
+.css2 { font-size: 1.2em; padding:4px;}
+.css3 { font-size: 1.4em; padding:4px;}
+.css4 { font-size: 1.6em; padding:4px;}
+ 
+ #notice { background:#2e2; color:#222; text-align:center; font-size:12px; font-weight:bold;} 
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+div.autocomplete {
+  position:absolute;
+  width:250px;
+  background-color:white;
+  border:1px solid #888;
+  margin:0px;
+  padding:0px;
+}
+div.autocomplete ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+div.autocomplete ul li.selected { background-color: #ffb;}
+div.autocomplete ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+  height:40px;
+  cursor:pointer;
+}
+img.searchres {
+  float:left;
+}
+#tagsDiv {
+  display:inline;
+}
+a {
+	color: #F70;
+}
+a:hover {
+	color: #C60;
+}
+
+.banned {
+	background-color: #ddd;
+	color: black;
+	
+	margin:auto;
+	margin-top:50px;
+	width:760px;
+	border:5px solid #999;
+	padding:20px;
+}
+
+.banned h1 {
+	font-size:40px;
+	text-align:center;
+	color:red;
+}
+
+.bottom_line {
+  border-bottom:1px dashed #999;
+}
+
+table.blue {
+  background-color: #ccccff;
+  color:black;
+  margin: 3px;
+  padding:2px;
+  font-size:12px;
+}
+td.response {
+	padding-left:20px;
+}
+body {
+	
+	color: #466;
+	font: normal 62.5% "verdana",sans-serif;
+	margin: 0;
+	width:100%;
+}
+input {
+	color: blue;
+	font: bold 1.1em "verdana",sans-serif;
+	border:3px double #aaa;
+	padding:2px;
+}
+p,cite,code,ul {
+	font-size: 1.2em;
+	padding-bottom: 1.2em;
+}
+h1 {
+	font-size: 1.4em;
+	margin-bottom: 4px;
+}
+code {
+	
+	border: 1px solid #F0F0F0;
+	border-left: 6px solid #39F;
+	color: #555;
+	display: block;
+	font: normal 1.1em "verdana",serif;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	white-space: pre;
+}
+cite {
+	
+	color: #666;
+	display: block;
+	font: normal 1.3em "Lucida Sans Unicode",serif;
+	padding-left: 28px;
+}
+h1,h2,h3 {
+	color: #06C;
+	padding-top: 6px;
+}
+.smallpic img {
+    inherit:none;
+    margin:1px;
+    
+}
+/* misc */
+.clearer {
+	/*clear: both;*/
+}
+
+/* structure */
+.container {
+width:100%;
+}
+
+.header {
+background: #0094D6;
+	height: 33px;
+	width:100%;
+}
+.header-mc {
+background: black;
+	height: 33px;
+	width:100%;
+}
+
+.header-atv {
+background: black;
+	height: 33px;
+	width:100%;
+}
+.header-fun {
+background: black;
+	height: 33px;
+	width:100%;
+}
+
+
+
+img {
+    margin:5px;
+    border: 1px solid #444;
+}
+
+/* title */
+.title {
+	float: left;
+	width:110px;
+	padding: 0px 82px 0 10px;
+}
+.title h1 {
+	color: #FFF;
+	font: normal 2em Verdana,sans-serif;
+}
+/* navigation */
+.navigation {
+	float: left;
+	height: 28px;
+	margin-left: 24px;
+	padding: 0px 10px;
+	padding-bottom:10px;
+}
+.navigation a {
+	color: #FFF;
+	float: left;
+	font: bold 1.2em "verdana",sans-serif;
+	margin-top: 6px;
+	padding: 4px 18px;
+	text-align: center;
+	text-decoration: none;
+}
+/*(.navigation a:hover {
+	background-color: #4A91C3;
+	color: #FFF;
+} */
+
+/* main */
+.main {
+	background: #FFF no-repeat;
+	clear: both;
+	padding: 6px 0 0 20px;
+}
+
+/* main left */
+.sidenav {
+    
+	float: left;
+	width: 225px;
+	margin-right:15px;
+	padding-right:5px;
+}
+.sidenav h1 {
+	border-bottom: 1px dashed #DDD;
+	color: #E73;
+	font-size: 1.2em;
+	height: 20px;
+	margin-top: 1.2em;
+}
+.sidenav ul {
+	margin: 0;
+	padding: 0;
+}
+.sidenav li { 
+	border-bottom: 1px dashed #ddd;
+	list-style: none;
+	margin: 0;
+}
+.sidenav li a {
+	color: #777;
+	display: block;
+	font-size: 1.0em;
+	padding: 3px 3px 3px 10px;
+	text-decoration: none;
+}
+.sidenav li a:hover {
+	color: #111;
+	
+}
+
+/* content */
+.content {
+	margin-left:245px;
+}
+img.header {
+	margin-top:0px;
+	border: 0px;
+	
+}
+.justify {
+	text-align:justify;
+}
+.content .descr {
+	color: #C60;
+	margin-bottom: 6px;
+}
+.content li {
+	
+	margin-left: 18px;
+}
+
+/* search form */
+.styled {
+	border: 3px double #ccc;
+	padding: 2px 3px;
+}
+.button {
+	border: 1px solid #AAA;
+	margin-left: 5px;
+	padding: 2px 3px;
+}
+
+/* footer */
+.footer {
+  clear:both;
+  margin-top:10px;
+	background: #0094D6;
+	color: #C1DEF0;
+	font-size: 1.1em;
+	line-height: 15px;
+	text-align: center;
+	padding:5px;
+}
+.footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+.footer a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}

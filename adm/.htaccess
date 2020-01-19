@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+#AuthName "Restricted Area" 
+#AuthType Basic 
+#AuthUserFile /usr/local/www/data/snaffed.com/adm/.htpasswd 
+#AuthGroupFile /dev/null 
+#require valid-user
+#
